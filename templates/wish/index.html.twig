@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}List Wish{% endblock %}
+
+{% block body %}
+
+<div>
+     <h1>Liste Wish</h1>
+
+    {{ path('app_wish_show', {id : 1}) }}
+
+    <a href="{{ path('app_wish_show', {id : 1}) }}" />
+
+    <p>Stephane oublie pas de faire le café</p>
+</div>
+{% endblock %}
